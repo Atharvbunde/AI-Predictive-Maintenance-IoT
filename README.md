@@ -71,7 +71,7 @@ This chart shows that the model correctly predicted every single failure and hea
 
 2. Terminal Output
 This screenshot confirms the training process and the final accuracy score.
-![Model Training Output](images/Screenshot 2026-04-10 210506.png)
+![Model Training Output](images/images/Screenshot 2026-04-10 210506.png)
 
 3. Project Structure
 A look at the professional organization of the repository.
