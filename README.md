@@ -185,7 +185,7 @@ python main.py
 
 ### 3. Project Structure
 
-![Folder Structure](images/figure3.png)
+![Folder Structure](images/images/figure3.png)
 
 ---
 
