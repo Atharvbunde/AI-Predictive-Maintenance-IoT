@@ -1,139 +1,143 @@
-🚀 AI-Powered Predictive Maintenance for IoT Devices
-
-📌 Overview
-This project focuses on Predictive Maintenance (PdM) for industrial equipment. By utilizing Machine Learning algorithms and simulated IoT sensor data (Temperature, Vibration, and Current), the system can predict whether a machine is likely to fail before the breakdown actually occurs.
-
-❗ Problem Statement
-Unscheduled downtime in industries leads to massive production losses and high repair costs. Traditional maintenance is either:
-*Reactive: Fix it when it breaks (expensive and disruptive).
-Preventative: Fix it on a schedule (can be wasteful if parts are still good).
-
-This project implements Predictive Maintenance, which uses data to fix machines only when a failure is imminent.
-
-🏭 Industry Relevance
-This technology is a core pillar of Industry 4.0 and is used by global leaders such as:
-Siemens & GE:For monitoring gas turbines and power plants.
-*Tesla: For predictive diagnostics in automated manufacturing lines.
-*Aviation: To monitor engine health and prevent mid-flight issues.
-
-🛠 Tech Stack
-Language: Python
-Libraries:`Pandas` & `NumPy` (Data Manipulation)
-    `Scikit-learn` (Machine Learning: Random Forest, Logistic Regression)
-    `Matplotlib` & `Seaborn` (Data Visualization)
-
-📊 Dataset
-The project uses a simulated dataset representing typical IoT sensor readings from a manufacturing cell:
-Features: `Temperature (°C)`: Thermal state of the motor.
-    `Vibration (mm/s)`: Mechanical stability.
-    `Current (A)`: Electrical load and health.
-Target:** `Failure` (0 = Healthy, 1 = Fail).
-
-🏗 Architecture
-The workflow follows a standard data science pipeline integrated with Mechatronics principles:
-
-1.  Data Acquisition: Simulated sensor streams.
-2.  Preprocessing: Normalization and feature scaling.
-3.  Model Training: Training Random Forest and Logistic Regression.
-4.  Inference:Predicting failure state based on real-time inputs.
-5.  Visualization: Confusion Matrix to evaluate performance.
-
-⚙ Installation
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/predictive-maintenance-iot.git
-    ```
-2.  Navigate to the folder:
-    ```bash
-    cd predictive-maintenance-iot
-    
-3.  Install dependencies:
-    ```bash
-    pip install pandas numpy scikit-learn matplotlib seaborn
-    ```
-# 🚀 AI Project – Beginner Friendly Guide
-
-## 📌 Project Overview
-
-This project uses Python and machine learning libraries to process data and generate results/graphs.
+# 🚀 AI-Powered Predictive Maintenance for IoT Devices
 
 ---
 
-🧑‍💻 HOW TO RUN THIS PROJECT (STEP-BY-STEP FOR BEGINNERS)
- 🔹 STEP 1: Create a Project Folder
+## 📌 Overview
 
-1. Go to your Desktop
-2. Right click → Click **New → Folder**
-3. Name it: `AI_Project` (or anything you like)
+This project focuses on **Predictive Maintenance (PdM)** for industrial equipment.
+By using **Machine Learning algorithms** and simulated IoT sensor data (Temperature, Vibration, and Current), the system predicts machine failure **before breakdown occurs**.
 
 ---
 
-🔹 STEP 2: Download / Copy Project Files
+## ❗ Problem Statement
+
+Unscheduled downtime in industries leads to:
+
+* High production losses
+* Expensive repairs
+
+Traditional maintenance methods:
+
+* **Reactive** → Fix after failure (costly)
+* **Preventative** → Fix on schedule (wasteful)
+
+✅ This project implements **Predictive Maintenance**, which uses data to fix machines only when failure is likely.
+
+---
+
+## 🏭 Industry Relevance
+
+This technology is a core part of **Industry 4.0** and is used by:
+
+* **Siemens & GE** → Monitoring turbines & power plants
+* **Tesla** → Automated manufacturing diagnostics
+* **Aviation Industry** → Engine health monitoring
+
+---
+
+## 🛠 Tech Stack
+
+* **Language:** Python
+* **Libraries:**
+
+  * Pandas & NumPy → Data handling
+  * Scikit-learn → Machine Learning
+  * Matplotlib & Seaborn → Visualization
+
+---
+
+## 📊 Dataset
+
+Simulated IoT sensor dataset:
+
+* **Temperature (°C)** → Thermal condition
+* **Vibration (mm/s)** → Mechanical stability
+* **Current (A)** → Electrical load
+* **Target:**
+
+  * `0` = Healthy
+  * `1` = Failure
+
+---
+
+## 🏗 Architecture
+
+1. Data Acquisition → Simulated sensor data
+2. Preprocessing → Cleaning & scaling
+3. Model Training → Random Forest & Logistic Regression
+4. Prediction → Failure detection
+5. Visualization → Confusion Matrix
+
+---
+
+## ⚙ Installation
+
+```bash
+git clone https://github.com/your-username/predictive-maintenance-iot.git
+cd predictive-maintenance-iot
+pip install -r requirements.txt
+```
+
+---
+
+# 🧑‍💻 HOW TO RUN THIS PROJECT (FOR BEGINNERS)
+
+## 🔹 STEP 1: Create Folder
+
+1. Go to Desktop
+2. Right click → New → Folder
+3. Name it: `AI_Project`
+
+---
+
+## 🔹 STEP 2: Add Project Files
 
 * Copy all project files (`main.py`, `requirements.txt`, etc.)
-* Paste them inside your folder
+* Paste them inside the folder
 
 ---
 
-🔹 STEP 3: Open Command Prompt in this Folder
+## 🔹 STEP 3: Open Command Prompt
 
-1. Open your project folder
-2. Click on the **address bar (top where path is shown)**
+1. Open the folder
+2. Click address bar
 3. Type:
 
-   ```
-   cmd
-   ```
-4. Press **Enter**
+```
+cmd
+```
 
-👉 A black window (Command Prompt) will open
-👉 It will already be inside your project folder ✅
+4. Press Enter
 
 ---
 
-🔹 STEP 4: Create Virtual Environment
-
-In Command Prompt, type:
+## 🔹 STEP 4: Create Virtual Environment
 
 ```
 python -m venv venv
 ```
 
-👉 This creates a folder named `venv`
-
 ---
 
-🔹 STEP 5: Activate Virtual Environment
-
-Type this command:
+## 🔹 STEP 5: Activate Virtual Environment
 
 ```
 venv\Scripts\activate
 ```
 
-👉 If successful, you will see:
-
-```
-(venv) C:\...
-```
+👉 You should see `(venv)` in terminal
 
 ---
 
-🔹 STEP 6: Install Required Libraries
-
-Type:
+## 🔹 STEP 6: Install Dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-👉 This installs all required packages automatically
-
 ---
 
-🔹 STEP 7: Run the Project
-
-Type:
+## 🔹 STEP 7: Run Project
 
 ```
 python main.py
@@ -141,36 +145,77 @@ python main.py
 
 ---
 
-📊 OUTPUT
+## 📊 Output
 
-* If program prints something → it will show in Command Prompt
-* If graphs are used → a graph window will open 📈
-* If files are generated → check project folder
-
----
-
-❗ TROUBLESHOOTING
-
-🔸 Python not recognized
-
-* Install Python from official website
-* During install, tick **“Add Python to PATH”**
+* Text output → shown in terminal
+* Graphs → open in new window 📈
+* Files → saved in project folder
 
 ---
 
-🔸 pip not working
+## 🚀 Usage
 
 Run:
+
+```bash
+python main.py
+```
+
+---
+
+## 📈 Results
+
+* **Accuracy:** 100% (on simulated dataset)
+* **Confusion Matrix:**
+
+  * True Positives → Correct failure prediction
+  * True Negatives → Correct healthy prediction
+
+---
+
+## 📸 Screenshots
+
+### 1. Confusion Matrix
+
+![Confusion Matrix](images/Figure_1.png)
+
+### 2. Terminal Output
+
+![Model Output](images/figure2.png)
+
+### 3. Project Structure
+
+![Folder Structure](images/figure3.png)
+
+---
+
+## 📦 Requirements
+
+Create a file `requirements.txt`:
+
+```
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+```
+
+---
+
+## ❗ Troubleshooting
+
+### Python not recognized
+
+Install Python and enable **“Add to PATH”**
+
+### pip not working
 
 ```
 python -m pip install --upgrade pip
 ```
 
----
-
-🔸 Module not found error
-
-Run again:
+### Module not found
 
 ```
 pip install -r requirements.txt
@@ -178,58 +223,30 @@ pip install -r requirements.txt
 
 ---
 
-📦 REQUIREMENTS
-
-Make sure you have:
-
-Python installed (version 3.x)
-
----
- 🧠 SIMPLE SUMMARY
-
-1. Open folder
-2. Type `cmd`
-3. Create venv
-4. Activate venv
-5. Install requirements
-6. Run project
-
----
-🎯 Done!
-
-Now your project should run successfully 🚀
-🚀 Usage
-Run the main script to train the model and see the prediction results:
-```bash
-python main.py
-```
-
-📈 Results
-Accuracy:Achieved 100% accuracy on the simulated dataset.
-Confusion Matrix:True Positives: Successfully identified all failure states.
-    True Negatives:Corrected identified all healthy states.
-    *(See screenshot below for the visualization)*
-
-📸 Screenshots
- 1. Confusion Matrix
-This chart shows that the model correctly predicted every single failure and healthy state.
-![Confusion Matrix](images/Figure_1.png)
-
-2. Terminal Output
-This screenshot confirms the training process and the final accuracy score.
-![Model Training Output](images/figure2.png)
-
-3. Project Structure
-A look at the professional organization of the repository.
-![Folder Structure](images/images/figure3.png)
-
 ## 💡 Learning Outcomes
-* Understood the integration of **Mechatronics sensors** with **Artificial Intelligence**.
-* Mastered the use of **Random Forest** for binary classification tasks.
-* Evaluated model performance using **Confusion Matrices** and accuracy scores.
-* Applied **Low-Cost Automation (LCA)** logic to software-based predictive systems.
+
+* Integration of **IoT Sensors + AI**
+* Understanding **Predictive Maintenance systems**
+* Using **Random Forest for classification**
+* Evaluating model using **Confusion Matrix**
+* Applying **Low-Cost Automation concepts**
 
 ---
 
-Author
-Atharv Vishnudas Bunde | ss Mechatronics Engineering Student | DBATU*
+## 👨‍💻 Author
+
+**Atharv Vishnudas Bunde**
+Diploma in Mechatronics Engineering
+DBATU
+
+---
+
+## 🎯 Conclusion
+
+This project demonstrates how **AI + IoT** can reduce downtime and improve industrial efficiency.
+
+🚀 Future Scope:
+
+* Real-time IoT integration
+* Mobile dashboard
+* Edge AI deployment
