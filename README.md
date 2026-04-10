@@ -51,7 +51,153 @@ The workflow follows a standard data science pipeline integrated with Mechatroni
     ```bash
     pip install pandas numpy scikit-learn matplotlib seaborn
     ```
+# 🚀 AI Project – Beginner Friendly Guide
 
+## 📌 Project Overview
+
+This project uses Python and machine learning libraries to process data and generate results/graphs.
+
+---
+
+🧑‍💻 HOW TO RUN THIS PROJECT (STEP-BY-STEP FOR BEGINNERS)
+ 🔹 STEP 1: Create a Project Folder
+
+1. Go to your Desktop
+2. Right click → Click **New → Folder**
+3. Name it: `AI_Project` (or anything you like)
+
+---
+
+🔹 STEP 2: Download / Copy Project Files
+
+* Copy all project files (`main.py`, `requirements.txt`, etc.)
+* Paste them inside your folder
+
+---
+
+🔹 STEP 3: Open Command Prompt in this Folder
+
+1. Open your project folder
+2. Click on the **address bar (top where path is shown)**
+3. Type:
+
+   ```
+   cmd
+   ```
+4. Press **Enter**
+
+👉 A black window (Command Prompt) will open
+👉 It will already be inside your project folder ✅
+
+---
+
+🔹 STEP 4: Create Virtual Environment
+
+In Command Prompt, type:
+
+```
+python -m venv venv
+```
+
+👉 This creates a folder named `venv`
+
+---
+
+🔹 STEP 5: Activate Virtual Environment
+
+Type this command:
+
+```
+venv\Scripts\activate
+```
+
+👉 If successful, you will see:
+
+```
+(venv) C:\...
+```
+
+---
+
+🔹 STEP 6: Install Required Libraries
+
+Type:
+
+```
+pip install -r requirements.txt
+```
+
+👉 This installs all required packages automatically
+
+---
+
+🔹 STEP 7: Run the Project
+
+Type:
+
+```
+python main.py
+```
+
+---
+
+📊 OUTPUT
+
+* If program prints something → it will show in Command Prompt
+* If graphs are used → a graph window will open 📈
+* If files are generated → check project folder
+
+---
+
+❗ TROUBLESHOOTING
+
+🔸 Python not recognized
+
+* Install Python from official website
+* During install, tick **“Add Python to PATH”**
+
+---
+
+🔸 pip not working
+
+Run:
+
+```
+python -m pip install --upgrade pip
+```
+
+---
+
+🔸 Module not found error
+
+Run again:
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+📦 REQUIREMENTS
+
+Make sure you have:
+
+Python installed (version 3.x)
+
+---
+ 🧠 SIMPLE SUMMARY
+
+1. Open folder
+2. Type `cmd`
+3. Create venv
+4. Activate venv
+5. Install requirements
+6. Run project
+
+---
+🎯 Done!
+
+Now your project should run successfully 🚀
 🚀 Usage
 Run the main script to train the model and see the prediction results:
 ```bash
