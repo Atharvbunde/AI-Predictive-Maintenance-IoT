@@ -75,7 +75,7 @@ This screenshot confirms the training process and the final accuracy score.
 
 3. Project Structure
 A look at the professional organization of the repository.
-![Folder Structure](images/figure3.png)
+![Folder Structure](images/images/figure3.png)
 
 ## 💡 Learning Outcomes
 * Understood the integration of **Mechatronics sensors** with **Artificial Intelligence**.
