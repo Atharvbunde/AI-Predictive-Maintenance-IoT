@@ -233,14 +233,6 @@ pip install -r requirements.txt
 
 ---
 
-## 👨‍💻 Author
-
-**Atharv Vishnudas Bunde**
-Diploma in Mechatronics Engineering
-DBATU
-
----
-
 ## 🎯 Conclusion
 
 This project demonstrates how **AI + IoT** can reduce downtime and improve industrial efficiency.
@@ -250,3 +242,12 @@ This project demonstrates how **AI + IoT** can reduce downtime and improve indus
 * Real-time IoT integration
 * Mobile dashboard
 * Edge AI deployment
+
+---
+
+## 👨‍💻 Author
+
+**Atharv Vishnudas Bunde**
+Diploma in Mechatronics Engineering
+DBATU
+
