@@ -250,4 +250,5 @@ This project demonstrates how **AI + IoT** can reduce downtime and improve indus
 **Atharv Vishnudas Bunde**
 Diploma in Mechatronics Engineering
 DBATU
+linkdin : https://www.linkedin.com/in/atharv-bunde-602361400/
 
